@@ -5,7 +5,7 @@ import GoogleMapReact from 'google-map-react';
 const MapsView = ({ text }) => (
   <div style={{
     position: 'relative', color: 'white', background: 'red',
-    height: 40, width:, 60, top: -20, left: -30, textAlign: 'center', paddingTop: '5px'
+    height: 40, width: 60, top: -20, left: -30, textAlign: 'center', paddingTop: '5px'
   }}>
     {text}
   </div>
