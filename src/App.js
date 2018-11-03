@@ -12,7 +12,7 @@ import Blog from './Blog/Blog';
 import NotFound from './NotFound/NotFound';
 
 import './App.css';
-import createBrowserHistory from 'history/createbrowserHistory';
+import createBrowserHistory from 'history/createBrowserHistory';
 
 const history = createBrowserHistory();
 class App extends Component {
