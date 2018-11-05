@@ -13,7 +13,7 @@ const MapsView = ({ text }) => (
 
 class Maps extends Component {
   static defaultProps = {
-    center: {lat: 6.5244, lng: 3.3792 },
+    center: {lat: 40.6692, lng: -73.5628 },
     zoom: 11
   };
 
@@ -27,8 +27,8 @@ class Maps extends Component {
             defaultZoom={this.props.zoom}
           >
             <MapsView
-              lat={6.5244}
-              lng={3.3792}
+              lat={40.6692}
+              lng={-73.5628}
               text={'Your Location'}
             />
           </GoogleMapReact>

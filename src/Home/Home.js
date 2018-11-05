@@ -15,7 +15,7 @@ class Home extends Component {
             </h2>
             <section className="bottom">
               <Button name="Go to About page" link="/about" />
-              <Button name="Got to Blog page" link="/blog" />
+              <Button name="Go to Blog page" link="/blog" />
             </section>
           </div>
         </section>
